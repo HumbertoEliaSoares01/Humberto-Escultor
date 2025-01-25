@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/************************************************************************************************		Estilo Fotos	***/
+section#corpo-principal{ background-color:#dddddd; padding: 0px; margin-top: -10px; }
+section#corpo-principal ul{ margin-left: -5px; }
+section#corpo-principal img#Coruja-do-Sid { margin-left: 25px; }
+section#corpo-principal img:hover { transform: scale(1.2); transition-duration: .8s;  }
+
+section#corpo-principal img#mostruario-paty-do-alferes { margin-left: 25px; }
+ 
+ul#album-de-fotos a{ text-align: center; }
+ul#album-de-fotos-corpo-lateral-2 {
+	width: 400px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: hidden;
+	list-style: none;
+	background-color: #dddddd;	
+}
+ul#album-de-fotos-corpo-lateral-2 li {
+	float: left;
+	width: 180px; height: 180px;
+	margin: 5px;
+	border: 5px solid #ffffff;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.4);		
+	background-color: #ffffff;
+}
+ul#album-de-fotos-corpo-lateral-2 li span {
+	opacity: 0;	
+	font-size: 24px;
+	line-height: 50px;	
+	padding: 5px;
+	padding-left: 10px;
+}
+ul#album-de-fotos-corpo-lateral-2 li:hover span { opacity: 1; }
+ul#album-de-fotos-corpo-lateral-2 li:hover  { transform: scale(1.2); transition-duration: .8s;  }
+ul#album-de-fotos-corpo-lateral-2 li#foto-001 { background-image: url("../imagens/Portal/Casa 040.jpg");
+	background-repeat: no-repeat; 
+	background-position: 50% 50%; 
+	background-size: 240px; 240px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-002 { background-image: url("../imagens/Portal/Gato 002.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: 50% 50%; 
+	background-size: 300px; 300px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-003 { background-image: url("../imagens/Portal/coruja 003.jpg");
+	background-repeat: no-repeat; width: 380px;
+	background-position: 50% 50%; 
+	background-size: 400px; 400px;
+}
+
+ul#album-de-fotos-corpo-lateral-2 li#foto-004 { background-image: url("../imagens/Portal/Coruja 002.jpg");
+	background-repeat: no-repeat; width: 380px;
+	background-position: 50% 50%; 
+	background-size: 400px; 400px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-005 { background-image: url("../imagens/Máscara 001.jpg");
+	background-repeat: no-repeat; ;height: 380px; 
+	background-position: 50% 50%; 
+	background-size: 250px; 250px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-006 { background-image: url("../imagens/Artesanato/Coruja do Sid.jpg");
+	background-repeat: no-repeat; ;height: 380px; 
+	background-position: 50% 50%; 
+	background-size: 350px; 350px;
+}
+

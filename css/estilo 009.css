@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*************************************************************v/
+/*********************************		Cabeçalho			***/	
+/**************************************************************/
+	header#cabecalho {
+		border-bottom: 1px #606060 solid;
+		background-color: #dddddd;
+		margin-bottom: 0px;
+		margin-top: -10px;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	header#cabecalho h1{
+		font-family: Times New Roman, sans-serif;
+		font-size: 32pt;
+		color: #dddddd;
+		text-shadow: 3px 3px 10px rgba(0,0,0,.6);
+		text-align: center;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		margin-left: 100px;
+	}	
+	header#cabecalho h2{
+		font-family: Times New Roman, sans-serif;
+		font-size: 16pt;
+		color: gray;
+		text-align: center;
+		padding: 0px;
+		margin-top: 0px;
+		margin-left: 100px;
+	}	 
+	header#cabecalho h3{
+		font-family: Times New Roman, sans-serif;
+		font-size: 8pt;
+		margin-top: 0px;
+		margin-left: 100px;
+	}	 
+/**************************************************************/
+/****************************	formatação do menu			***/
+/**************************************************************/
+	nav#menu{
+		display: block;
+	}
+	nav#menu ul {
+		list-style: none;			/***	não aparece o marcador		***/	
+		text-transform: uppercase;	/***	letra maiúscula				***/	
+		text-transform: bold;		/***	letra negrito				***/
+		position: absolute;			/***	posição absoluta no site	***/
+		top: 80px;
+		right: 0px;
+	}
+	nav#menu li {
+		display: inline-block;		/***	disposição em linha			***/
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+	nav#menu li:hover {
+		background-color: #606060;
+ 	} 
+	nav#menu h1 {
+		display: none;				/***	não aparece o h1			***/	
+		font-family: Times New Roman, sans-serif;
+	}
+	nav#menu h2{ {
+		font-family: Times New Roman, sans-serif;
+	}
+	nav#menu h1 {
+		font-family: Times New Roman, sans-serif;
+	}

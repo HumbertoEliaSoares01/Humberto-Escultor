@@ -1,0 +1,482 @@
+@charset "UTF-8";
+
+	div#interface { height: 100%; width: 100%; background-color: #dddddd; }
+	
+	header#cabecalho {
+		opacity: .8;
+		font-family: Arial Rounded MT Bold;
+		border-bottom: 4px #2E2E2E solid; line-height: 180px; 
+		background-color: rgb(144, 141, 175);
+		margin-bottom: 0px; margin-top: -10px; margin-left: -10px; margin-right: -10px; 
+		height: 110px;
+		padding-bottom: 20px;
+	}
+	header#cabecalho h1{
+		text-align: left; text-shadow: 6px 6px 10px rgba(0,0,0,.6);
+		margin-bottom: 0px; margin-top: 0px; margin-left: 20px;
+		font-size: 56pt; color: #F2F2F2;		 
+		font-family: 'Finger Paint', cursive; 
+		/*********************************************************************************		
+		Utilizando fontes púbçicas do site do Google = "www.google.com/fonts" 
+		utilizando a fonte "Finger Paint" no <h1> do cabeçalho " Humberto Escultor "
+		font-family: 'Open Sans', sans-serif;
+		font-family: 'Finger Paint', cursive;
+		*** fonte anterior ***************************************************************
+		font-family: Arial Rounded MT Bold, sans-serif; font-size: 56pt; *****************
+		*********************************************************************************/
+	}
+	header#cabecalho h2{
+		font-size: 23pt; color: #646566; text-align: left;
+		padding: 0px; margin-top: 0px; margin-left: 100px;
+	}	 
+	header#cabecalho h3{ font-size: 8pt; margin-top: 0px; margin-left: 100px; }	 
+
+	/************************************************************************************/
+	/******************************************************		Corpo Principal		*****/
+	/************************************************************************************/
+
+	section#corpo-principal{ 
+		width: 60%; height: 100%; float: left; display: block; 
+		margin-left: -10px; margin-right: -19px; border-right: 2px black solid; 
+		background-color:#dddddd; padding: 0px; margin-top: -10px; 
+	}
+	section#corpo-principal h1 { 
+		font-family: Times New Roman, sans-serif; font-size: 42pt; text-align: center; 
+	}
+	section#corpo-principal h2 { 
+		font-family: Times New Roman, sans-serif; font-size: 36pt; text-align: center; 
+	}
+	section#corpo-principal h3 { 
+		font-family: Times New Roman, sans-serif; font-size: 28pt; text-align: center; 
+	}
+	section#corpo-principal a {	
+		font-family: Times New Roman, sans-serif; font-size: 20pt; text-align: center; 
+	}
+	section#corpo-principal p { 
+		font-family: Times New Roman, sans-serif; font-size: 20pt; text-align: justify;
+		text-indent: 50px;	
+	}	
+	section#corpo-principal img { padding: 10px; }
+	section#corpo-principal img#imagem-tabela { width: 95%;}
+	section#corpo-principal img#imagem-tabela:hover { 
+		transform: scale(1.2); transition-duration: .8s; 
+	}	
+	section#corpo-principal img#foto-princioal { 
+		margin-left: 10px; margin-right: 10px; width: 50%; height: 50%
+	}	
+	section#corpo-principal img#foto-princioal:hover {
+		transform: scale(1.2); transition-duration: .8s; opacity: .8;
+	}
+	section#corpo-principal img#Coruja-do-Sid { margin-left: 25px; }
+	section#corpo-principal img#mostruario-paty-do-alferes { margin-left: 25px; }
+	section#corpo-principal iframe#iframeAnexo { width: 330px; height: 380px; margin: auto; }
+	section#corpo-principal img:hover { transform: scale(1.2); transition-duration: .8s;  }
+	section#corpo-principal img#foto-iframe { width: 40%; height: 40%; }
+	section#corpo-principal img#foto-iframe:hover { 
+		/*** transform: scale(1.2); transition-duration: .8s; ***/ 
+	}
+	section#corpo-principal ul{ margin-left: -5px; }	
+	section#corpo-principal ul li { text-align: center; }	
+	section#corpo-principal ul li:hover { 
+	text-align: center; transform: scale(1.4); transition-duration: .8s;
+	}
+	
+
+	/************************************************************************************/
+	/******************************************************		Corpo Lateral		*****/
+	
+	
+	section#corpo-lateral { 
+		padding: 0px; margin-right: -10px;  margin-left: -10px; 
+		width: 40%; height: 100%; 
+		float: right; display: block; 
+		font-family: Times New Roman; font-size:22px; background-color: #dddddd;
+	}
+		section#corpo-lateral h1 { font-size: 28px; text-align: center; padding-right: 40px; }
+		section#corpo-lateral p { 
+		font-size: 28px; text-align: justify; padding-right: 40px; text-indent: 30px;
+	}
+	
+		section#corpo-lateral img { width: 95%; }
+		section#corpo-lateral img:hover { transform: scale(1.2); transition-duration: .8s; opacity: .8;	}
+	
+	
+	/************************************************************************************/
+	/**************************************************		Imagem com legenda		*****/
+	/************************************************************************************/
+	
+	
+		figure.foto-legenda { position: relative; }
+		figure.foto-legenda img { width: 100%; height: 100%; }	
+		figure.foto-legenda:hover figcaption { opacity: 1; }
+		figure.foto-legenda figcaption {	
+		opacity: 0;
+		position: absolute; top: 0px; 
+		background-color: rgba(0,0,0,.2); color: white; 
+		width: 104%; height: 100%; 
+		padding: 10px; 
+		box-sizing: border-box;
+		transition: opacity 1s;
+		text-align: center; font-family: Times New Roman;
+	}
+	
+	
+	/************************************************************************************/
+	/**************************************************************		Rodapé		*****/
+	/************************************************************************************/
+	
+	
+	footer#rodape {	
+		clear: both; float: top; border-top: 3px solid #606060;	
+		font-family: Times New Roman; opacity: .8;  text-align: center;
+		background-color: #dddddd;
+		margin-top: 0px; margin-bottom: -10px; margin-left: -10px; margin-right: -10px;
+		padding-bottom: 20px;
+
+	}
+	footer#rodape h2 { font-size: 22px; }	
+	footer#rodape ul { font-size: 18px; }
+	footer#rodape h2 { text-align: center; }	
+	footer#rodape h2:hover { transform: scale(1.8); transition-duration: .8s; }
+		
+	
+	/************************************************************************************/
+	/******************************************************			 menu			*****/
+
+	
+	nav.menu{ display: block; font-family: Times New Roman; opacity: .8; color: white; }
+	nav.menu ul { position: absolute; top: -10px; right: 10px; }
+	nav.menu ul li{	
+		background-color: #b0b1b2; 
+		display: inline-block; float: left; 
+		width: 200px; height: 40px;
+		text-align: center; line-height: 40px; font-size: 28px;
+	}
+	nav.menu ul ul li{	font-size: 22px; }
+	nav.menu ul li:hover{ background-color: #626263; }
+	nav.menu ul ul{	display: none; position: relative; top: -40px; right: 60px; left: -40px; top: 0px; }
+	nav.menu ul li:hover > ul{ display: block; float: left; }
+	nav.menu ul ul ul{ margin-left: 200px; top: -120px; left: -422px;}
+	nav.menu a{ color: white; }
+	
+	
+	/************************************************************************************/
+	/**********************************************************		tabela			*****/
+	
+	
+	table#tabelaEscultura { padding: 2px; font-family: Times New Roman; padding-right: 20px; }
+	table#tabelaEscultura caption { text-align: justify; padding-left: 10px; } 
+	table#tabelaEscultura h1 { text-align: justify; font-size: 24px; }
+	table#tabelaEscultura h2 { text-align: center; font-size: 20px; }
+	table#tabelaEscultura h3 { text-align: center; font-size: 18px; }	
+	table#tabelaEscultura p { text-align: justify; font-size: 20px; text-indent: 30px; }
+	table#tabelaEscultura td { width: 50%; padding: auto; text-indent: 30px; }	
+
+
+	/************************************************************************************/
+	/**********************************************************		Album de Fotos	*****/
+	/************************************************************************************/
+
+	ul#album-de-fotos { width: 1000px; margin: 0 auto; padding: 5px; overflow: hidden; list-style: none; }
+
+	ul#album-de-fotos a{ text-align: center; }
+	ul#album-de-fotos li { float: left; width: 310px; height: 310px; margin: 5px; 
+		border: 5px solid #ffffff; background-color: #ffffff; box-shadow: 2px 2px 4px rgba(0,0,0,.4); }
+	ul#album-de-fotos li span { opacity: 0; font-size: 24px; line-height: 50px;	
+		padding: 5px; padding-left: 10px; }
+	ul#album-de-fotos li:hover span { opacity: 1; }
+
+	ul#album-de-fotos li#foto-001 { background-image: url("../imagens/Mostruário/Anjo.jpg");
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 200px; 200px; }
+	ul#album-de-fotos li#foto-002 { background-image: url("../imagens/Mostruário/Bêbado.jpg");
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-003 {	background-image: url("../imagens/Mostruário/Canoeiro.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-004 { background-image: url("../imagens/Mostruário/Cavaleiro.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-005 { background-image: url("../imagens/Mostruário/Égua Deitada.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-006 { background-image: url("../imagens/Mostruário/Enxadristas.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-007 { background-image: url("../imagens/Mostruário/Gárgula.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-008 { background-image: url("../imagens/Mostruário/Maestro.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-009 { background-image: url("../imagens/Mostruário/Mulher Varrendo.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-010 { background-image: url("../imagens/Mostruário/Pandeirista.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-011 { background-image: url("../imagens/Mostruário/Pé.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-012 { background-image: url("../imagens/Mostruário/Mulher Deitada.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-013 { background-image: url("../imagens/Mostruário/Potro.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-014 { background-image: url("../imagens/Mostruário/São Francisco.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-015 { background-image: url("../imagens/Mostruário/Servente.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-016 { background-image: url("../imagens/Mostruário/Peladeiro.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-017 { background-image: url("../imagens/Mostruário/Violeiro.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-018 { background-image: url("../imagens/foto perfil 03.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-019 { background-image: url("../imagens/Agrosserra.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-020 { background-image: url("../imagens/Tijolinho.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+	ul#album-de-fotos li#foto-021 { background-image: url("../imagens/Bebedouro de Passarinho.jpg"); 
+		background-repeat: no-repeat; background-position: 50% 50%; background-size: 300px; 300px; }
+		
+
+
+	/************************************************************************************/
+	/**********************************************		estilo fotos corpo lateral	*****/
+	/************************************************************************************/
+	
+	section#corpo-principal { background-color:#dddddd; padding: 0px; margin-top: -10px; }
+	section#corpo-principal ul { margin-left: -5px; }
+
+	ul#album-de-fotos-corpo-lateral {
+	width: 400px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: hidden;
+	list-style: none;
+	background-color: #dddddd;	
+	}
+	ul#album-de-fotos-corpo-lateral li {
+		float: left;
+		width: 180px; 
+		height: 180px;
+		margin: 5px;
+		border: 5px solid #ffffff;
+		background-color: #ffffff;
+		box-shadow: 2px 2px 4px rgba(0,0,0,.4);		
+	}
+
+	/**********************************************************************************/
+	/**********************************************************************************/
+	/*** 																			***/
+	/*** 	ul#album-de-fotos-corpo-lateral li:hover { transform: scale(1.5); }		***/
+	/*** 																			***/
+	/*** 																			***/
+	/*** 			A foto aumenta quando passa o mouse por cima					***/
+	/***   																			***/
+	/**********************************************************************************/
+	/**********************************************************************************/
+
+	ul#album-de-fotos-corpo-lateral li span {
+		opacity: 0;	
+		font-size: 24px;
+		line-height: 50px;	
+		padding: 5px;
+		padding-left: 10px;
+	}
+
+	ul#album-de-fotos-corpo-lateral li:hover span { opacity: 1; }
+	ul#album-de-fotos-corpo-lateral li:hover {transform: scale(1.2); transition-duration: .6s;}
+
+	ul#album-de-fotos-corpo-lateral li#foto-001 { 
+		background-image: url("../imagens/Mostruário/Anjo.jpg");
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 100px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-002 { 
+		background-image: url("../imagens/Mostruário/Bêbado.jpg");
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+
+	ul#album-de-fotos-corpo-lateral li#foto-003 { background-image: url("../imagens/Mostruário/Canoeiro.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-004 { background-image: url("../imagens/Mostruário/Cavaleiro.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-005 { background-image: url("../imagens/Mostruário/Égua Deitada.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-006 { background-image: url("../imagens/Mostruário/Enxadristas.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-007 { background-image: url("../imagens/Mostruário/Gárgula.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 150px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-008 { background-image: url("../imagens/Mostruário/Maestro.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-009 { background-image: url("../imagens/Mostruário/Mulher Varrendo.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 150px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-010 { background-image: url("../imagens/Mostruário/Pandeirista.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-011 { background-image: url("../imagens/Mostruário/Pé.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 300px; 300px;	
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-012 { background-image: url("../imagens/Mostruário/Mulher Deitada.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 250px; 250px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-013 { background-image: url("../imagens/Mostruário/Potro.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-014 { background-image: url("../imagens/Mostruário/São Francisco.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 120px; 120px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-015 { background-image: url("../imagens/Mostruário/Servente.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 300px; 300px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-016 { background-image: url("../imagens/Mostruário/Peladeiro.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 200px; 200px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-017 { background-image: url("../imagens/Mostruário/Violeiro.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 150px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-018 { background-image: url("../imagens/Totem/Totem da Duba 02.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 150px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-019 { background-image: url("../imagens/Totem/Totem da Duba 05.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 150px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-020 { background-image: url("../imagens/Totem/Totem da Duba 04.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 250px; 250px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-021 { background-image: url("../imagens/Totem/Totem da Duba 08.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 150px;
+	}
+	ul#album-de-fotos-corpo-lateral li#foto-022 { background-image: url("../imagens/Totem/Totem da Duba 10.jpg"); 
+		background-repeat: no-repeat;
+		background-position: 50% 50%; 
+		background-size: 150px; 150px;
+	}		
+	
+	
+	/**********************************************************************************/
+	/*********************************************************		Estilo Fotos	***/
+	/**********************************************************************************/
+ 
+ul#album-de-fotos a { text-align: center; }
+ul#album-de-fotos-corpo-lateral-2 {
+	width: 400px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: hidden;
+	list-style: none;
+	background-color: #dddddd;	
+}
+ul#album-de-fotos-corpo-lateral-2 li {
+	float: left;
+	width: 180px; height: 180px;
+	margin: 5px;
+	border: 5px solid #ffffff;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.4);		
+	background-color: #ffffff;
+}
+ul#album-de-fotos-corpo-lateral-2 li span {
+	opacity: 0;	
+	font-size: 24px;
+	line-height: 50px;	
+	padding: 5px;
+	padding-left: 10px;
+}
+ul#album-de-fotos-corpo-lateral-2 li:hover span { opacity: 1; }
+ul#album-de-fotos-corpo-lateral-2 li:hover  { transform: scale(1.2); transition-duration: .8s;  
+}
+
+ul#album-de-fotos-corpo-lateral-2 li#foto-001 { background-image: url("../imagens/Portal/Casa 040.jpg");
+	background-repeat: no-repeat; 
+	background-position: 50% 50%; 
+	background-size: 240px; 240px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-002 { background-image: url("../imagens/Portal/Gato 002.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: 50% 50%; 
+	background-size: 300px; 300px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-003 { background-image: url("../imagens/Portal/coruja 003.jpg");
+	background-repeat: no-repeat; width: 380px;
+	background-position: 50% 50%; 
+	background-size: 400px; 400px;
+}
+
+ul#album-de-fotos-corpo-lateral-2 li#foto-004 { background-image: url("../imagens/Portal/Coruja 002.jpg");
+	background-repeat: no-repeat; width: 380px;
+	background-position: 50% 50%; 
+	background-size: 400px; 400px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-005 { background-image: url("../imagens/Máscara 001.jpg");
+	background-repeat: no-repeat; ;height: 380px; 
+	background-position: 50% 50%; 
+	background-size: 250px; 250px;
+}
+ul#album-de-fotos-corpo-lateral-2 li#foto-006 { background-image: url("../imagens/Artesanato/Coruja do Sid.jpg");
+	background-repeat: no-repeat; ;height: 380px; 
+	background-position: 50% 50%; 
+	background-size: 350px; 350px;
+}
+
+ul#album-de-fotos-corpo-lateral-2 li#foto-101 { background-image: url("../Curso Java Script/Imagens/módulos.png");
+	background-repeat: no-repeat; ;height: 720px; whidh: 1440px;
+	background-position: 100% 100%; 
+	background-size: 220px; 200px;
+}
+
+	/**********************************************************************************/
+	/*********************************************************		Tabela			***/
+	/**********************************************************************************/
+	
+ 	table#tabela-preço { background-color: white; }
+	caption { padding: 0px; border-bottom: solid; text-align: center; background-color: #dddddd;}
+	table#tabela-preço td { padding: 0px; width: 140px; text-align: center; }
+	table#tabela-preço tr#primeira-linha background-color: #dddddd; )
+	table#tabela-preço tr#segunda-linha; )
+	table#tabela-preço tr#terceira-linha; )
+	table#tabela-preço tr#quarta-linha; )
+	table#tabela-preço tr#quinta-linha; )
+	table#tabela-preço td#coluna-obra { padding: 0px; border-right: solid; text-align: center; background-color: #dddddd; width:100px; }
+	table#tabela-preço td#coluna-peso { padding: 0px; border-right: solid; text-align: center; background-color: #dddddd; width:50px; }
+	table#tabela-preço h1 { font-size: 22pt; }
+	table#tabela-preço h2 { font-size: 20pt; }
+	table#tabela-preço p { font-size: 18pt; }

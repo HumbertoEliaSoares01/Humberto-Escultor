@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+	iframe#iframeImagem h1 { 
+		padding: 10px; padding-bottom : 80px;
+		text-align: justify; font-family: Times New Roman; font-size: 36px;		
+	}
+	
+	iframe#iframeImagem p { 
+		padding: 10px; padding-bottom : 40px;
+		text-align: justify; font-family: Times New Roman; font-size: 22px;
+	}
+	
+
+	iframe#iframeImagem{
+
+		width:400px; height:890px; padding-bottom: 20px; padding-top: 10px;
+		
+		text-align: justify; font-family: Times New Roman; font-size: 24px;
+	}

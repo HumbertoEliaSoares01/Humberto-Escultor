@@ -1,0 +1,29 @@
+@charset "UTF-8";
+	.menu ul li{
+		background-color: #6da3f9;
+		color: white;
+		float: left;
+		width: 200px;
+		height: 40px;
+		display: inline-block;
+		text-align: center;
+		line-height: 40px;
+		font-size: 25px;
+	}
+	.menu ul li:hover{
+		background-color: #133c7c;
+		color: yellow;
+	}
+	.menu ul{
+		padding: 0;
+	}
+	.menu ul ul{
+		display: none;
+	}
+	.menu ul li:hover > ul{
+		display: block;
+	}	
+	.menu ul ul ul{
+		margin-left: 200px;
+		top: 0px;
+	}				

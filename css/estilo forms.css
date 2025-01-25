@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+	div#interface{ background-color: #acc7ef; height: 1800px; font-size: 16pt; margin-top: -20px;}
+	form#fContato { padding: 50px; padding-top: 0px; width: 400px; margin-left: 160px; }	
+	textarea#cMsg { text-indent: 20px; font-size: 14pt; }
+	h1 { text-align: center; font-size: 28pt; font-weight: bolder; }
+	h2 { text-indent: 20px;text-align: justify;  font-weight: bolder; }
+	h4 { text-indent: 2px;  font-size: 20pt;}
+	input {text-indent: 10px; font-size: 10pt; }
+	fieldset { background-color: #b2b4b7; }
+	fieldset#cPed { margin-left: 120px; }
+	legend { font-size: 26pt; text-transform: bolder; }
+	

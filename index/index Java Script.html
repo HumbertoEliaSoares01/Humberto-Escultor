@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang= "pt,br">
+
+	<head>
+		<meta charset="UTF-8"/> 
+		<title> Java Script </title> 
+		<script>  
+			function acendeLampada(){
+				document.getElementById("luz").src="imagens/lampada-acesa.jpg";
+			}
+			function apagaLampada(){
+				document.getElementById("luz").src="imagens/lampada-apagada.jpg";
+			}
+			function quebraLampada(){
+				document.getElementById("luz").src="imagens/lampada-quebrada.jpg";
+			}
+		</script>
+	</head>	
+
+	<body>
+		<p> <h1> Acende, apgaga e quebra a lâmpada <br/> 
+		utilizando 3 funções de JavaScript <br/>  a partir de 3 eventos </h1> </p>
+		<img src="imagens/lampada-apagada.jpg" id="luz" onmouseover="acendeLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+	</body>
+	
+</html>
+ 

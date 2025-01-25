@@ -1,0 +1,91 @@
+
+@charset "UTF-8";
+
+section#botoes { 
+	opacity: .8; 
+	width: 100%;
+	height: 2080px;
+	margin 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #dddddd; border: 5px solid white; box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+}
+section#botoes li:hover { transform: scale(1.5) transitiom: 2s; }
+
+section#botoes li:hover a { font-size: 24pt; }
+
+section#botoes li { 
+	Float: left; width: 300px; height: 300px; margin: 10px; 
+	background-color: #ffffff;	border: 5px solid white; box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+}
+section#botoes h3 { text-align: center;	font-size: 32pt; opacity: 0; }
+section#botoes li:hover h3 { opacity: 1; }
+
+section#botoes li#foto-001 { 
+	background-image: url("../imagens/Mostruário/Anjo.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;	
+}
+section#botoes li#foto-002 { 
+	background-image: url("../imagens/Mostruário/Bêbado.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-003 { 
+	background-image: url("../imagens/Mostruário/Canoeiro.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-004 { 
+	background-image: url("../imagens/Mostruário/Cavaleiro.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-005 { 
+	background-image: url("../imagens/Mostruário/Égua Deitada.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-006 { 
+	background-image: url("../imagens/Mostruário/Enxadristas.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-007 { 
+	background-image: url("../imagens/Mostruário/Gárgula.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-008 { 
+	background-image: url("../imagens/Mostruário/Maestro.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-009 { 
+	background-image: url("../imagens/Mostruário/Mulher Deitada.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-010 { 
+	background-image: url("../imagens/Mostruário/Mulher Varrendo.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-011 { 
+	background-image: url("../imagens/Mostruário/Pandeirista.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-012 { 
+	background-image: url("../imagens/Mostruário/Pé.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-013 { 
+	background-image: url("../imagens/Mostruário/Peladeiro.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-014 { 
+	background-image: url("../imagens/Mostruário/Potro.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-015 { 
+	background-image: url("../imagens/Mostruário/São Francisco.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-016 { 
+	background-image: url("../imagens/Mostruário/Servente.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}
+section#botoes li#foto-016 { 
+	background-image: url("../imagens/Mostruário/Violeiro.jpg"); background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: 400px; 400px;
+}

@@ -1,0 +1,187 @@
+@charset "UTF-8";
+	
+	/********************************************************/
+	/**********************	Imagem com Legenda			*****/	
+	/********************************************************/
+	figure.foto-legenda { border: 2px solid ; box-shadow: 1px 1px 4px black; position: relative; }
+	figure.foto-legenda img { width: 100%; height: 100%; }
+	figure.foto-legenda figcaption {
+		opacity: 0;
+		position: absolute; 
+		top: 0px; 
+		background-color: rgba(0,0,0,.4); 
+		color: white; 
+		width: 100%;
+		height: 100%; 
+		padding: 10px;
+		box-sizing: border-box;
+		transition: opacity 1s;
+		text-align: center;
+		font-family: Arial Rounded MT Bold, sans-serif;
+	}
+	figure.foto-legenda:hover figcaption { opacity: 1; }
+	
+	/*************************************************************v/
+	/*********************************		Cabeçalho			***/	
+	/**************************************************************/
+	header#cabecalho {
+		border-bottom: 2px #575d66 solid;
+		background-color: #dddddd;
+		margin-bottom: 0px;
+		margin-top: -10px;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	header#cabecalho h1{
+		font-family: Arial Rounded MT Bold, sans-serif;
+		font-size: 42pt;
+		color: #f2f3f4;
+		text-shadow: 3px 3px 10px rgba(0,0,0,.6);
+		text-align: left;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		margin-left: 100px;
+	}	
+	header#cabecalho h2{
+		font-family: Arial Rounded MT , sans-serif;
+		font-size: 23pt;
+		color: #646566;
+		text-align: left;
+		padding: 0px;
+		margin-top: 0px;
+		margin-left: 100px;
+	}	 
+	header#cabecalho h3{
+		font-family: Arial Rounded MT Bold, sans-serif;
+		font-size: 8pt;
+		margin-top: 0px;
+		margin-left: 100px;
+	}
+	/**************************************************************/
+	/***************************************	 sections		***/
+	/**************************************************************/
+	section#corpo-esquerdo { 
+		width: 600px; 
+		height: 300px; 
+		float: left;  
+		display: block; 
+		background-color: #e5e6e8; 
+	}
+	section#corpo-direito { 
+		width: 500px; 
+		height: 400px; 
+		float: right; 
+		display: block; 
+		background-color: #e5e6e8; 
+	}
+	section#corpo-inferior{
+		clear: both; 
+		width: 100%;
+		height: 100px; 
+		float : top; 
+		background-color: #dddddd;						 
+		border-top: 1px solid #606060;
+		display: block;  
+		text-align: center;
+	}
+	/**************************************************************/
+	/***************************************	 menu			***/
+	/**************************************************************/
+	nav.menu ul{ 
+		padding: 1px; position: absolute; top: -35px; right: 2px; /
+		
+	}
+	nav.menu ul ul{ display: none; top: 20px; width: 200px; psition: relative; }
+	
+	nav.menu ul li{
+		background-color: #a3c3ed; 
+		color: white;
+		display: inline-block; 
+		float: left; 
+		position: relative; top: 20px; width: 200px; height: 40px; right: 0px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 24px;
+	}
+	nav.menu ul li:hover > ul { 
+		background-color: #a3c3ed; color: white;
+		float: left; width: 200px; height: 40px; top: 20px;
+		display: inline-block;
+		text-align: center;
+		line-height: 40px;
+		font-size: 24px;
+		position: relative; 
+	}
+	
+	nav.menu ul ul ul{ display: none; margin-left: 200px; top: -60px; position: relative; }
+	
+	nav.menu ul ul li:hover > ul { display: block; }
+	
+	nav.menu ul li:hover{
+		background-color: #3380e8; 
+		right: 0px;
+		color: yellow;
+		width: 200px;
+	}
+	
+	
+	.menu ul li:hover > ul { display: block; }
+	
+	.menu ul ul ul{ display: none; margin-left: 200px; top: 0px; position: absolute}
+	
+	.menu ul ul li:hover > ul { display: block; }
+	
+	.menu ul li:hover{
+		background-color: #3380e8;
+		color: yellow;
+	}
+	/***************************************************************
+	.menu ul{ padding: 0px; }
+	
+	nav.menu ul ul{ 
+		display: none; 		
+	}
+	nav.menu ul li{
+		background-color: #a3c3ed;
+		color: white;
+		float: left;
+		width: 200px;		height: 40px;
+		display: inline-block;
+		text-align: center;
+		line-height: 40px;
+		font-size: 24px;
+		position: relative; 
+	}
+	nav.menu ul li:hover > ul { display: block; }
+	
+	nav.menu ul ul ul{ display: none; margin-left: 200px; top: 0px; position: absolute; }
+						 
+	nav.menu ul ul li:hover > ul { display: block; }
+	
+	nav.menu ul li:hover{ background-color: #3380e8; color: yellow;	}
+	
+	
+	nav.menu h1{ font-family: Arial Rounded MT Bold, sans-serif; } *** display: none;  =   não aparece o h1 } ***
+	nav.menu h2{ font-family: Arial Rounded MT Bold, sans-serif; }
+	nav.menu a{ font-family: Arial Rounded MT Bold, sans-serif; }	
+	
+	/*************************************************************
+	* nav.menu{ display: block;} *
+	
+	nav.menu ul ul{ display: none; }	***	não aparece o sub-menu		***
+	nav.menu ul ul ul{ display: none; margin-left: 200px; top: 0px; position: absolute; }
+	nav.menu ul li {
+		display: inline-block;		***	disposição em linha			***
+		padding: 10px;
+		float: left;
+		text-align: center;
+		font-size: 24px;
+		position: relative; 
+		transition: background-color 1s;
+	}
+	nav.menu ul li:hover > ul { display: inline-block; background-color: #dddddd; }
+	nav.menu ul ul li:hover > ul { display: inline-block; }
+
+	nav.menu ul li:hover{ background-color: #545556; }
+	
+	**************************************************************/

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+	div#tv-radio { 		
+		margint: auto; width: 800px; height: 800px;
+	}
+		
+	audio#musica {
+		display: block; position: relative; width: 300px; left: 350px; top: -55px;
+	}
+	video#videos {
+		display: block; position: relative; width: 300px; left: 350px; top: -55px;
+	}
+	iframe#video-do-yoitube { 
+		display: block; position: relative; width: 300px; left: 350px; top: -55px;
+	}

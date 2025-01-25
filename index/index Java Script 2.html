@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang= "pt,br">
+
+	<head>
+		<meta charset="UTF-8"/> 
+		<title> Java Script </title> 
+		<script>  
+			function mudaLampada(tipo) {
+				if (tipo==1) arquivo = "imagens/lampada-acesa.jpg";
+				if (tipo==2) arquivo = "imagens/lampada-apagada.jpg";
+				if (tipo==3) arquivo = "imagens/lampada-quebrada.jpg";
+				document.getElementById("luz").src=arquivo;
+			}
+		</script>
+	</head>	
+
+	<body>
+		<p> <h1> Acende, apgaga e quebra a lâmpada <br/> 
+		utilizando 1 função de JavaScript <br/>  passando parêmetros para a fubção <br/> a partir de 3 eventos </h1> </p>
+		<img src="imagens/lampada-apagada.jpg" id="luz" onmouseover="mudaLampada(1)" onmouseout="mudaLampada(2)" onclick="mudaLampada(3)"/>
+	</body>
+	
+</html>
+ 

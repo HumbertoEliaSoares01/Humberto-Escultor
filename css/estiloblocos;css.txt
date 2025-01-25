@@ -1,0 +1,28 @@
+	@charset "UTF-8";
+	section#corpo {
+		text-align: center;
+		display: block; 
+		float: left; 
+		width: 570px;
+		height: 400px;
+		background-color: #5e7496;
+		border: 2px solid black;
+	}
+	aside#lateral { 
+		text-align: center;
+		display: block; 
+		float: right; 
+		width: 570px;
+		height: 400px;
+		background-color: #206ce8;
+		border: 2px solid black;
+	}
+	footer#rodape { 
+		text-align: center;
+		clear: both;
+		display: block; 
+		float: bottom;
+		background-color: #bbd2f7;
+		border: 2px solid black;
+		height: 140px;
+		}

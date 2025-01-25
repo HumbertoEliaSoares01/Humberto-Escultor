@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+	/******************************************************************************************************
+	nav.menu{ display: block;} 
+	******************************************************************************************************/
+	.menu ul{ padding: 0px; }
+	.menu ul ul{ display: none; }
+	.menu ul li{
+		background-color: #a3c3ed;
+		color: white;
+		float: left;
+		width: 200px;
+		height: 40px;
+		display: inline-block;
+		text-align: center;
+		line-height: 40px;
+		font-size: 24px;
+		position: relative; 
+	}
+	.menu ul li:hover > ul { display: block; }
+	
+	.menu ul ul ul{ display: none; margin-left: 200px; top: 0px; position: absolute}
+	
+	.menu ul ul li:hover > ul { display: block; }
+	
+	.menu ul li:hover{
+		background-color: #3380e8;
+		color: yellow;
+	}
+		
+	/******************************************************************************************************/

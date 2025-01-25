@@ -1,0 +1,25 @@
+
+@charset "UTF-8";
+table#tabela-preço { background-color: white; }
+caption { padding: 0px; border-bottom: solid; text-align: center; background-color: #dddddd;}
+
+table#tabela-preço td { padding: 0px; width: 140px; text-align: center; }
+
+table#tabela-preço tr#primeira-linha background-color: #dddddd; )
+table#tabela-preço tr#segunda-linha; )
+table#tabela-preço tr#terceira-linha; )
+table#tabela-preço tr#quarta-linha; )
+table#tabela-preço tr#quinta-linha; )
+
+
+
+				   
+
+table#tabela-preço td#coluna-obra { padding: 0px; border-right: solid; text-align: center; background-color: #dddddd; width:100px; }
+
+table#tabela-preço td#coluna-peso { padding: 0px; border-right: solid; text-align: center; background-color: #dddddd; width:50px; }
+
+
+table#tabela-preço h1 { font-size: 22pt; }
+table#tabela-preço h2 { font-size: 20pt; }
+table#tabela-preço p { font-size: 18pt; }

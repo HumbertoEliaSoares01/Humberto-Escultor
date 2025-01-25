@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/**************************************		Estilo Fotos	***/
+section#corpo-principal{ background-color:#dddddd; padding: 0px; margin-top: -10px; }
+section#corpo-principal ul{ margin-left: -5px; }
+ul#album-de-fotos {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: hidden;
+	list-style: none;	
+	
+}
+ul#album-de-fotos li {
+	float: left;
+	width: 180px;;
+	height: 180px;
+	margin: 5px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+	
+}
+ul#album-de-fotos li span {
+	opacity: 0;
+	color: black;
+	font-size: 20px;
+	line-height: 370px;
+	padding: 5px;
+	
+}
+ul#album-de-fotos li:hover span {	opacity: 1;	}
+
+ul#album-de-fotos li#foto-001 { 
+	background-image: url("../imagens/Mostruário/Anjo.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 150px; 150px;
+}
+ul#album-de-fotos li#foto-002 { 
+	background-image: url("../imagens/Mostruário/Bêbado.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+
+ul#album-de-fotos li#foto-003 {
+	
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+ul#album-de-fotos li#foto-004 { background-image: url("../imagens/Mostruário/Cavaleiro.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+ul#album-de-fotos li#foto-005 { background-image: url("../imagens/Mostruário/Égua Deitada.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+ul#album-de-fotos li#foto-006 { background-image: url("../imagens/Mostruário/Enxadristas.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+ul#album-de-fotos li#foto-007 { background-image: url("../imagens/Mostruário/Gárgula.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 150px; 150px;
+}
+ul#album-de-fotos li#foto-008 { background-image: url("../imagens/Mostruário/Maestro.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+ul#album-de-fotos li#foto-009 { background-image: url("../imagens/Mostruário/Mulher Varrendo.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 150px; 150px;
+}
+ul#album-de-fotos li#foto-010 { background-image: url("../imagens/Mostruário/Pandeirista.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+ul#album-de-fotos li#foto-011 { background-image: url("../imagens/Mostruário/Pé.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 250px; 250px;
+}
+ul#album-de-fotos li#foto-012 { background-image: url("../imagens/Mostruário/Peladeiro.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 200px; 200px;
+}
+ul#album-de-fotos li#foto-013 { background-image: url("../imagens/Mostruário/São Francisco.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 150px; 150px;
+}
+ul#album-de-fotos li#foto-014 { background-image: url("../imagens/Mostruário/Servente.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 300px; 300px;
+}
+ul#album-de-fotos li#foto-015 { background-image: url("../imagens/Mostruário/Violeiro.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 150px; 150px;
+	
+}
+ul#album-de-fotos li#foto-016 { background-image: url("../imagens/Mostruário/Totem da Duba.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	background-size: 150px; 150px;
+	
+}
